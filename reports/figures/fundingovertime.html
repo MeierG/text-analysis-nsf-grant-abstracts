@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="c0182508-eb02-423b-9d73-d99fff46dc27" data-root-id="3457"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="3857">
+          {"a7539a9d-f055-4388-8600-118e6a3eeb4b":{"roots":{"references":[{"attributes":{"background_fill_color":{"value":"AliceBlue"},"below":[{"id":"3468","type":"LinearAxis"}],"center":[{"id":"3472","type":"Grid"},{"id":"3477","type":"Grid"},{"id":"3496","type":"BoxAnnotation"},{"id":"3497","type":"Label"}],"left":[{"id":"3473","type":"LinearAxis"}],"output_backend":"svg","plot_height":450,"plot_width":1000,"renderers":[{"id":"3494","type":"GlyphRenderer"}],"title":{"id":"3458","type":"Title"},"toolbar":{"id":"3484","type":"Toolbar"},"x_range":{"id":"3460","type":"DataRange1d"},"x_scale":{"id":"3464","type":"LinearScale"},"y_range":{"id":"3462","type":"DataRange1d"},"y_scale":{"id":"3466","type":"LinearScale"}},"id":"3457","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"3501","type":"BasicTickFormatter"},{"attributes":{},"id":"3482","type":"ResetTool"},{"attributes":{"grid_line_color":null,"ticker":{"id":"3469","type":"BasicTicker"}},"id":"3472","type":"Grid"},{"attributes":{},"id":"3505","type":"Selection"},{"attributes":{"axis_label_text_font_size":{"value":"15pt"},"formatter":{"id":"3503","type":"BasicTickFormatter"},"major_label_text_font_size":{"value":"12pt"},"ticker":{"id":"3469","type":"BasicTicker"}},"id":"3468","type":"LinearAxis"},{"attributes":{"axis_label":"Amount awarded in US Billion","axis_label_text_font_size":{"value":"15pt"},"formatter":{"id":"3501","type":"BasicTickFormatter"},"ticker":{"id":"3474","type":"BasicTicker"}},"id":"3473","type":"LinearAxis"},{"attributes":{},"id":"3506","type":"UnionRenderers"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":6,"x":{"field":"year"},"y":{"field":"AwardAmount"}},"id":"3493","type":"Line"},{"attributes":{},"id":"3466","type":"LinearScale"},{"attributes":{},"id":"3474","type":"BasicTicker"},{"attributes":{"callback":null,"data":{"AwardAmount":{"__ndarray__":"n5owOWxdrj+V1wMTo/L5Py7cCHem6fs/i025L1hTA0B+bmjKTmf/Pyl7SzlfWANAlBgJD8iBC0BRian8hNbzP/VAdb1+8v4/zSE86WMXCUBKbin0tQsJQJMpCudfWBdA3qO1pM7YFUDfgH0RwPsVQGEKpP5ZBRZA49j0TKFsFUB/ylkhqsEVQMyX9lE2YhhAO3yuw4yxE0CsT3aJo8wTQOFXK2ENeuw/rN8cEwEFST8=","dtype":"float64","shape":[22]},"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21],"year":[1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]},"selected":{"id":"3505","type":"Selection"},"selection_policy":{"id":"3506","type":"UnionRenderers"}},"id":"3456","type":"ColumnDataSource"},{"attributes":{},"id":"3483","type":"HelpTool"},{"attributes":{},"id":"3478","type":"PanTool"},{"attributes":{"callback":null},"id":"3460","type":"DataRange1d"},{"attributes":{"line_color":"green","line_width":6,"x":{"field":"year"},"y":{"field":"AwardAmount"}},"id":"3492","type":"Line"},{"attributes":{"text":"$6.22 b.awarded in 2016","text_baseline":"middle","x":2016,"x_offset":12,"y":6.22},"id":"3497","type":"Label"},{"attributes":{"callback":null,"mode":"vline","tooltips":[["Total amount awarded ","@AwardAmount"]]},"id":"3498","type":"HoverTool"},{"attributes":{},"id":"3469","type":"BasicTicker"},{"attributes":{},"id":"3503","type":"BasicTickFormatter"},{"attributes":{},"id":"3479","type":"WheelZoomTool"},{"attributes":{},"id":"3481","type":"SaveTool"},{"attributes":{"text":"Award funding has increased over time with 2011 seeing the largest funding amounts","text_color":{"value":"MidnightBlue"},"text_font_size":{"value":"16pt"}},"id":"3458","type":"Title"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"3507","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"green"},"left":2015,"line_color":{"value":"black"},"line_dash":[6],"right":2016.5},"id":"3496","type":"BoxAnnotation"},{"attributes":{"overlay":{"id":"3507","type":"BoxAnnotation"}},"id":"3480","type":"BoxZoomTool"},{"attributes":{"source":{"id":"3456","type":"ColumnDataSource"}},"id":"3495","type":"CDSView"},{"attributes":{},"id":"3464","type":"LinearScale"},{"attributes":{"data_source":{"id":"3456","type":"ColumnDataSource"},"glyph":{"id":"3492","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3493","type":"Line"},"selection_glyph":null,"view":{"id":"3495","type":"CDSView"}},"id":"3494","type":"GlyphRenderer"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3478","type":"PanTool"},{"id":"3479","type":"WheelZoomTool"},{"id":"3480","type":"BoxZoomTool"},{"id":"3481","type":"SaveTool"},{"id":"3482","type":"ResetTool"},{"id":"3483","type":"HelpTool"},{"id":"3498","type":"HoverTool"}]},"id":"3484","type":"Toolbar"},{"attributes":{"callback":null},"id":"3462","type":"DataRange1d"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"3474","type":"BasicTicker"}},"id":"3477","type":"Grid"}],"root_ids":["3457"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('3857').textContent;
+                  var render_items = [{"docid":"a7539a9d-f055-4388-8600-118e6a3eeb4b","roots":{"3457":"c0182508-eb02-423b-9d73-d99fff46dc27"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

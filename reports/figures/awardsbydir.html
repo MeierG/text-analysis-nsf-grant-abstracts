@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="882fa5b7-a055-4849-82bd-92ecb02b2f3d" data-root-id="3867"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="4315">
+          {"0b96578f-7fdc-4493-b10f-8d38fce765bb":{"roots":{"references":[{"attributes":{"below":[{"id":"3876","type":"CategoricalAxis"}],"center":[{"id":"3879","type":"Grid"},{"id":"3884","type":"Grid"},{"id":"3907","type":"Legend"}],"left":[{"id":"3880","type":"LinearAxis"}],"output_backend":"svg","plot_height":550,"plot_width":1000,"renderers":[{"id":"3898","type":"GlyphRenderer"}],"title":{"id":"3900","type":"Title"},"toolbar":{"id":"3889","type":"Toolbar"},"x_range":{"id":"3868","type":"FactorRange"},"x_scale":{"id":"3872","type":"CategoricalScale"},"y_range":{"id":"3870","type":"DataRange1d"},"y_scale":{"id":"3874","type":"LinearScale"}},"id":"3867","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":35},"x":{"field":"NSF_org"},"y":{"field":"count"}},"id":"3897","type":"Circle"},{"attributes":{},"id":"3904","type":"CategoricalTickFormatter"},{"attributes":{"callback":null},"id":"3870","type":"DataRange1d"},{"attributes":{},"id":"3902","type":"BasicTickFormatter"},{"attributes":{},"id":"3877","type":"CategoricalTicker"},{"attributes":{"ticker":{"id":"3877","type":"CategoricalTicker"}},"id":"3879","type":"Grid"},{"attributes":{"fill_color":{"field":"NSF_org","transform":{"id":"3894","type":"CategoricalColorMapper"}},"line_color":{"field":"NSF_org","transform":{"id":"3894","type":"CategoricalColorMapper"}},"size":{"units":"screen","value":35},"x":{"field":"NSF_org"},"y":{"field":"count"}},"id":"3896","type":"Circle"},{"attributes":{"callback":null,"data":{"NSF_org":["Directorate for Mathematical &amp; Physical Sciences","Directorate for Engineering","Directorate for Computer &amp; Information Science &amp; Engineering","Directorate for Geosciencess","Directorate For Biological Sciences"],"count":[33910,31504,24536,24195,18041],"index":[0,1,2,3,4],"max":{"__ndarray__":"4FbVJqnn7z8DfLd54+TvPwN8t3nj5O8/7xkuF5bk7z/+ZIwPs9fvPw==","dtype":"float64","shape":[5]},"mean":{"__ndarray__":"RLST9rQ+5T+mTitIFn3hP/jmzghBwuM/Qd2Jrb0+5T9NKKT3VrfiPw==","dtype":"float64","shape":[5]},"median":{"__ndarray__":"5v3JKUtu5T8WsuNUpczgP6fTFcfckOM/IImo08u55T9NRGT9C0niPw==","dtype":"float64","shape":[5]}},"selected":{"id":"3920","type":"Selection"},"selection_policy":{"id":"3921","type":"UnionRenderers"}},"id":"3866","type":"ColumnDataSource"},{"attributes":{"text":"Directorate for For Mathematical &amp; Physical Scien has funded the largest number of projects","text_color":{"value":"MidnightBlue"},"text_font_size":{"value":"15pt"}},"id":"3900","type":"Title"},{"attributes":{"factors":["Directorate for Mathematical &amp; Physical Sciences","Directorate for Engineering","Directorate for Computer &amp; Information Science &amp; Engineering","Directorate for Geosciencess","Directorate For Biological Sciences"],"palette":["MidnightBlue","DodgerBlue","CornflowerBlue","DeepSkyBlue","grey"]},"id":"3894","type":"CategoricalColorMapper"},{"attributes":{"axis_label":"Number of projects funded","axis_label_text_font_size":{"value":"14pt"},"formatter":{"id":"3902","type":"BasicTickFormatter"},"ticker":{"id":"3881","type":"BasicTicker"}},"id":"3880","type":"LinearAxis"},{"attributes":{"axis_label":"Directorate","axis_label_text_font_size":{"value":"14pt"},"formatter":{"id":"3904","type":"CategoricalTickFormatter"},"major_label_text_font_size":{"value":"0pt"},"major_tick_line_color":{"value":null},"minor_tick_line_color":{"value":null},"ticker":{"id":"3877","type":"CategoricalTicker"}},"id":"3876","type":"CategoricalAxis"},{"attributes":{},"id":"3886","type":"WheelZoomTool"},{"attributes":{"callback":null,"overlay":{"id":"3906","type":"BoxAnnotation"}},"id":"3885","type":"BoxSelectTool"},{"attributes":{"data_source":{"id":"3866","type":"ColumnDataSource"},"glyph":{"id":"3896","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3897","type":"Circle"},"selection_glyph":null,"view":{"id":"3899","type":"CDSView"}},"id":"3898","type":"GlyphRenderer"},{"attributes":{},"id":"3887","type":"ResetTool"},{"attributes":{},"id":"3872","type":"CategoricalScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3885","type":"BoxSelectTool"},{"id":"3886","type":"WheelZoomTool"},{"id":"3887","type":"ResetTool"},{"id":"3888","type":"SaveTool"},{"id":"3912","type":"HoverTool"}]},"id":"3889","type":"Toolbar"},{"attributes":{"label":{"field":"NSF_org"},"renderers":[{"id":"3898","type":"GlyphRenderer"}]},"id":"3908","type":"LegendItem"},{"attributes":{"items":[{"id":"3908","type":"LegendItem"}]},"id":"3907","type":"Legend"},{"attributes":{},"id":"3874","type":"LinearScale"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"3906","type":"BoxAnnotation"},{"attributes":{},"id":"3881","type":"BasicTicker"},{"attributes":{"callback":null,"mode":"vline","tooltips":[["Directorate "," @NSF_org"],["Counts ","@count"],["Average funding","@mean"],["Max funding awarded ","@max"]]},"id":"3912","type":"HoverTool"},{"attributes":{},"id":"3888","type":"SaveTool"},{"attributes":{"callback":null,"factors":["Directorate for Mathematical &amp; Physical Sciences","Directorate for Engineering","Directorate for Computer &amp; Information Science &amp; Engineering","Directorate for Geosciencess","Directorate For Biological Sciences"]},"id":"3868","type":"FactorRange"},{"attributes":{},"id":"3920","type":"Selection"},{"attributes":{"dimension":1,"ticker":{"id":"3881","type":"BasicTicker"}},"id":"3884","type":"Grid"},{"attributes":{"source":{"id":"3866","type":"ColumnDataSource"}},"id":"3899","type":"CDSView"},{"attributes":{},"id":"3921","type":"UnionRenderers"}],"root_ids":["3867"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('4315').textContent;
+                  var render_items = [{"docid":"0b96578f-7fdc-4493-b10f-8d38fce765bb","roots":{"3867":"882fa5b7-a055-4849-82bd-92ecb02b2f3d"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

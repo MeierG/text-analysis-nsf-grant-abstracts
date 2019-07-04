@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Why this issue matters}{}% 2
+\BOOKMARK [1][-]{section.3}{Publicly available awards data from U.S. National Science Foundation \(NSF\) }{}% 3
+\BOOKMARK [1][-]{section.4}{Approach}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Data }{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Understanding award amounts distribution over time}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Directorate with largest number of approved projects}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.4}{Grant duration}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.5}{Semantics and language patterns}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.6}{Approved projects by gender}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Topic modeling }{}% 11
+\BOOKMARK [1][-]{section.6}{Predicting Award Funding}{}% 12
+\BOOKMARK [1][-]{section.7}{Conclusions}{}% 13
+\BOOKMARK [1][-]{section.8}{Further Analysis}{}% 14
