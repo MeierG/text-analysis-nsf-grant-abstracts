@@ -261,6 +261,10 @@ The average word length per abstract is five words, indicating applicants favor 
 
 \textbf{\emph{Flesch reading ease score}}
 
+The flesch reading ease score measures the clarity and ease of read of a text. A lower the score, means that the text is more difficult to read.
+
+Therefore, even though proposals are reviewed by subject matter experts, the hypothesis is that abstracts that are easy to understand will be more appealing to the reviewers as they will have to spend less time trying to understand the point of the writer or the project. 
+
 The plots for the abstracts' flesch score showed that that the majority of the abstracts are written for at the graduate level and intended for subject expert matters. 75\% of the abstracts have a score of 19 or less.
 
 \includegraphics[width=\textwidth]{fleschscore}
@@ -309,7 +313,7 @@ The model found that topic 1 is related to scientific research, focusing on ener
  
 After obtaining attributes from the text analysis, the data was ready to build the model to predict the amount of funding based on text patterns using Extreme Gradient Boosting (XGBoost).
 
-The goal of XGBoosting is to train multiple models and sequentially combine them to improve predictive accuracy until the there is no more 'relevant' improvement and 'errors' has been minimized to the possible extend.
+The goal of XGBoosting is to train multiple models and sequentially combine them to improve predictive accuracy until the there is no more 'relevant' improvement and 'errors' has been minimized to the possible extent.
 
 A quick refresher of the target of the distribution of the target variable, 'AwardAmount' shows the data is still skewed and a log transformed could improve predictive results.
 
