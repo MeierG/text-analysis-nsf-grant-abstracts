@@ -9,9 +9,11 @@ Since grants funded by the U.S. government are one of the most common sources of
 
 Hence, the goal of this project is to use publicly available award data from the U.S. National Science Foundation (NSF) to identify whether the type of language used and linguistic patterns have have an impact on the aid received. The analysis considers the length of the abstract, ease of read and other linguistic patterns as predictors and the results can help future applicants understand how their linguistic patterns can impact the funding received based on theme, length,number of words and proportion of adverbs used.
 
-## The final interactive Jupyter notebook can be seen on <a href = "https://nbviewer.jupyter.org/github/MeierG/text-analysis-nsf-grant-abstracts/blob/master/notebooks/nsf-grants.ipynb">nbviewer.</a>
+## The final <a href = "https://nbviewer.jupyter.org/github/MeierG/text-analysis-nsf-grant-abstracts/blob/master/notebooks/nsf-grants.ipynb">interactive Jupyter notebook can be seen on nbviewer.</a>
 
 ## The final report <a href = "https://github.com/MeierG/text-analysis-nsf-grant-abstracts/blob/master/reports/nsf-grants-text-analysis-and-funding-predcition.pdf">on PDF format can be found here.</a>
+
+## The final <a href = "https://github.com/MeierG/text-analysis-nsf-grant-abstracts/blob/master/reports/Presentation-Text-analysis-abstract-awards.pdf"> presentation can be found here.</a>
 
 Project Organization
 ------------
